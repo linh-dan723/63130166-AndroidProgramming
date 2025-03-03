@@ -73,7 +73,7 @@
         tools:layout_editor_absoluteY="228dp" />
 
     <EditText
-        android:id="@+id/eatKQ"
+        android:id="@+id/edtKQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
