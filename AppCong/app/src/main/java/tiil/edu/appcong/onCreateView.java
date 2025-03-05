@@ -4,5 +4,6 @@ import android.view.View;
 
 public class onCreateView {
     public View.OnClickListener setOnClickListener() {
+        return null;
     }
 }
