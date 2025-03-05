@@ -6,28 +6,47 @@ import android.app.Activity;
 import android.graphics.Insets;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+// Cách Activity as Listener
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button btnSayHello = findViewById(R.layout);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-            //gắn layout tương ứng
         setContentView(R.layout.activity_main);
     }
+}
+
+
+    // 2.1 Listener in Variable
+// B1 + B2
+    View.OnClickListener bo_lang_nghe_XL_XinChao = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // Code xử lý ở đây
+            // Ví dụ, hiển thông báo nhanh bằng lớp Toast
+            // Toast.makeText(ngữ cảnh, nội dung Tbao, thời gian hiện).show();
+            Toast.makeText(MainActivity.this,
+                    "Chào all HTTT và các bạn",
+                    Toast.LENGTH_LONG).show();
+        }
+    };
+
     //đây là bộ lắng nghe và xửa lý sự kiện lick lên nut tính tông
     public void XuLyCong(View view) {
         // Tìm tham chiếu đến điều khiển trên tệp XML, mapping sang Java file
-        EditText editTextSoA = findViewById(R.id.edtA);
-        EditText editTextSoB = findViewById(R.id.edtB);
-        EditText editTextKetQua = findViewById(R.id.edtKQ);
+        EditText editTextSoA = editTextSoA.findViewById(R.id.edtA);
+        EditText editTextSoB = editTextSoB.findViewById(R.id.edtB);
+        EditText editTextKetQua = editTextKetQua.findViewById(R.id.edtKQ);
 
         // Lấy dữ liệu từ điều khiển số a
         String strA = editTextSoA.getText().toString(); // strA = "2"
