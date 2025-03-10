@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".loginActivity">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP HỆ THỐNG"
+        android:textSize="20dp"
+        android:textColor="#FF9800"
+        android:paddingTop="50dp" />
+
+    <!-- Nhập username -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User name:"
+            android:textSize="16dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <!-- Nhập password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="16dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:padding="5dp"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <!-- Nút Xác Nhận -->
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XÁC NHẬN"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/material_dynamic_neutral30"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+</LinearLayout>

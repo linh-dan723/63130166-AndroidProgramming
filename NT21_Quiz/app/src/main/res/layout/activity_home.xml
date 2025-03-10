@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context=".HomeActivity">
+
+    <!-- Tiêu đề chính -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MÀN HÌNH CHÍNH"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"/>
+
+    <!-- Chào mừng và tên đăng nhập -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHÀO MỪNG "
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÊN ĐĂNG NHẬP HIỆN RA Ở ĐÂY"
+            android:textSize="16sp"
+            android:textColor="#FF0000"/>
+    </LinearLayout>
+
+    <!-- Ảnh hiển thị -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample_image"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Layout chứa các nút -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <!-- Nút QUIZ 1 -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:textColor="#FFFFFF"
+            android:text="QUIZ 1"/>
+
+        <!-- Nút QUIZ 2 -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:textColor="#FFFFFF"
+            android:text="QUIZ 2"/>
+
+        <!-- Nút QUIZ 3 -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/material_dynamic_neutral30"
+            android:textColor="#FFFFFF"
+            android:text="QUIZ 3"/>
+    </LinearLayout>
+
+</LinearLayout>
