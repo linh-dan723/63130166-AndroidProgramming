@@ -59,3 +59,4 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Vui lòng nhập số hợp lệ!", Toast.LENGTH_SHORT).show();
         }
     }
+}
