@@ -7,19 +7,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ActivityMH2">
+    tools:context=".ActivityMH3">
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ĐÂY LÀ MÀN HÌNH 2"
+        android:text="ĐÂY LÀ MÀN HÌNH 3"
         android:textSize="30dp"
         android:textColor="@color/black"
         android:layout_marginBottom="20dp"/>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
         android:layout_width="80dp"
         android:layout_height="60dp"
         app:srcCompat="@android:drawable/presence_busy" />
