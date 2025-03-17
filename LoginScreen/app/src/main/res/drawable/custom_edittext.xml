@@ -1,4 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
-</selector>
+    <!-- CardView chứa nội dung đăng nhập -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Tiêu đề "Login" -->
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:paddingBottom="20dp"/>
+
+            <!-- EditText nhập Username -->
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="12dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <!-- EditText nhập Password -->
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="12dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+
+            <!-- Nút Đăng nhập -->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_background"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Đăng ký tài khoản -->
+    <TextView
+        android:id="@+id/signupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not yet registered? Sign up now"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
