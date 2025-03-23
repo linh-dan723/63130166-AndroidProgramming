@@ -1,27 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/material_dynamic_primary95">
+    android:background="@color/cardview_shadow_start_color">
 
-    <!-- Khung chứa nhân vật -->
-    <LinearLayout
-        android:layout_width="match_parent"
+    <!-- View màu xanh -->
+    <View
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/design_default_color_background"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Tiêu đề LoginGame -->
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_launcher_foreground"
-        android:padding="16dp">
+        android:text="LoginGame"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_launcher_background"
-            android:scaleType="fitCenter"/>
-    </LinearLayout>
-
-    <!-- Thanh chỉ số HP -->
+    <!-- Thanh HP -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +46,7 @@
             style="@android:style/Widget.ProgressBar.Horizontal"/>
     </LinearLayout>
 
-    <!-- Thanh chỉ số MP -->
+    <!-- Thanh MP -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,11 +64,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:progress="50"
+            android:progress="60"
             style="@android:style/Widget.ProgressBar.Horizontal"/>
     </LinearLayout>
 
-    <!-- Thanh chỉ số Stamina -->
+    <!-- Thanh Stamina -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -83,7 +86,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:progress="60"
+            android:progress="40"
             style="@android:style/Widget.ProgressBar.Horizontal"/>
     </LinearLayout>
 
