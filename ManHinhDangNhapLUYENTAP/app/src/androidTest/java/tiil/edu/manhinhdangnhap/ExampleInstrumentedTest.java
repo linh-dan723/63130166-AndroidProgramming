@@ -1,4 +1,4 @@
-package tiil.edu.manhinhdangnhapluyentap;
+package tiil.edu.manhinhdangnhap;
 
 import android.content.Context;
 
