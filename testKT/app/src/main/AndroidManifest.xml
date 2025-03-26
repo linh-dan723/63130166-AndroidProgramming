@@ -13,6 +13,18 @@
         android:theme="@style/Theme.TestKT"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityCau4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCau3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCau2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCau1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
