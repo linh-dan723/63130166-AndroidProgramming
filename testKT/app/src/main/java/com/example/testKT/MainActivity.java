@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
         Button btnCau4 = findViewById(R.id.btnCau4);
 
         btnCau1.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, MainActivityCau1.class);
+            Intent intent = new Intent(MainActivity.this, ActivityCau1.class);
             startActivity(intent);
         });
 
         btnCau2.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, MainActivityCau2.class);
+            Intent intent = new Intent(MainActivity.this, ActivityCau2.class);
             startActivity(intent);
         });
 
         btnCau3.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, MainActivityCau3.class);
+            Intent intent = new Intent(MainActivity.this, ActivityCau3.class);
             startActivity(intent);
         });
 
