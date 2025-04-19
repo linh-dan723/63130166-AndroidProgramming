@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="quiz_title">Quiz</string>
+    <string name="quiz_description">Mốc thời gian Chiến dịch\nHỒ CHÍ MINH - Toàn thắng</string>
+    <string name="day_label">Ngày</string>
+    <string name="month_label">Tháng</string>
+    <string name="year_label">Năm</string>
+    <string name="check_button">Kiểm tra Đúng/Sai</string>
+    <string name="default_result">Hiện kết quả ở đây</string>
+    <string name="correct_answer">✅ Chính xác! Ngày 30/4/1975.</string>
+    <string name="wrong_answer"> Sai! Hãy thử lại.</string>
+</resources>

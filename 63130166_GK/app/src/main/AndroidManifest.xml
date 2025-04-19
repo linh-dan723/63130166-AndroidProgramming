@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tiil.edu.a63130166_gk">  <!-- Thay bằng package của bạn -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme._63130166_GK">
+
+        <!-- Màn hình chính -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Màn hình Chức năng 2 (Quiz) -->
+        <activity android:name=".Chucnang2"
+            android:label="Chức năng 2" />
+
+        <!-- Màn hình Chức năng 3 (ListView) -->
+        <activity android:name=".Chucnang3"
+            android:label="Chức năng 3" />
+
+        <!-- Màn hình Chức năng 4 (RecyclerView) -->
+        <activity android:name=".Chucnang4"
+            android:label="Chức năng 4"
+            tools:ignore="Instantiatable" />
+
+        <!-- Màn hình About Me -->
+        <activity android:name=".AboutMe"
+            android:label="About Me" />
+
+    </application>
+</manifest>
