@@ -4,16 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="350dp"
+    android:background="#833B3B"
+    android:rotation="360"
+    android:rotationX="360"
+    android:rotationY="360"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <FrameLayout
+        android:id="@+id/frameContentHolder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#9E7E74"
+        app:layout_constraintBottom_toTopOf="@+id/frameFooterHolder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameFooterHolder"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="4dp"
+        android:background="#155C5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"></FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
