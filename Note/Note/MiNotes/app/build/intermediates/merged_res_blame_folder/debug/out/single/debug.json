@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_layout_miscellaneous.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/layout_miscellaneous.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note_color_4.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note_color_4.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_web_link.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_web_link.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_miscellaneous.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_miscellaneous.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_item_container_note.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/item_container_note.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_search.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_search.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_add_button.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_add_button.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_done_button.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_done_button.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/font_robotoslab_medium.ttf.flat",
+        "source": "com.isrxge.minotes.app-main-29:/font/robotoslab_medium.ttf"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_add.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note_color_3.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note_color_3.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable-v24_img.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable-v24/img.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_activity_create_note.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/activity_create_note.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_back.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_image.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_image.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note_color_2.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note_color_2.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_layout_add_url.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/layout_add_url.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/font_robotoslab_bold.ttf.flat",
+        "source": "com.isrxge.minotes.app-main-29:/font/robotoslab_bold.ttf"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_delete.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_delete.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_delete.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_add_outline.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_add_outline.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable-v24_img_1.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable-v24/img_1.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note_color_5.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note_color_5.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_search.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_subtitle_indicator.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_subtitle_indicator.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_note_color_1.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_note_color_1.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_ic_done.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/font_robotoslab_regular.ttf.flat",
+        "source": "com.isrxge.minotes.app-main-29:/font/robotoslab_regular.ttf"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.isrxge.minotes.app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/drawable_background_dialog.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/drawable/background_dialog.xml"
+    },
+    {
+        "merged": "com.isrxge.minotes.app-merged_res-27:/layout_layout_delete_note.xml.flat",
+        "source": "com.isrxge.minotes.app-main-29:/layout/layout_delete_note.xml"
+    }
+]

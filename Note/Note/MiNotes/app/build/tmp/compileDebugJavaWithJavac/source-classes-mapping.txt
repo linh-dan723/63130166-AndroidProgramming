@@ -1,0 +1,42 @@
+com/isrxge/minotes/dao/NoteDao.java
+ com.isrxge.minotes.dao.NoteDao
+com/isrxge/minotes/activities/CreateNoteActivity.java
+ com.isrxge.minotes.activities.CreateNoteActivity
+ com.isrxge.minotes.activities.CreateNoteActivity$1
+ com.isrxge.minotes.activities.CreateNoteActivity$10
+ com.isrxge.minotes.activities.CreateNoteActivity$11
+ com.isrxge.minotes.activities.CreateNoteActivity$11$1DeleteNoteTask
+ com.isrxge.minotes.activities.CreateNoteActivity$12
+ com.isrxge.minotes.activities.CreateNoteActivity$13
+ com.isrxge.minotes.activities.CreateNoteActivity$14
+ com.isrxge.minotes.activities.CreateNoteActivity$1SaveNoteTask
+ com.isrxge.minotes.activities.CreateNoteActivity$2
+ com.isrxge.minotes.activities.CreateNoteActivity$3
+ com.isrxge.minotes.activities.CreateNoteActivity$4
+ com.isrxge.minotes.activities.CreateNoteActivity$5
+ com.isrxge.minotes.activities.CreateNoteActivity$6
+ com.isrxge.minotes.activities.CreateNoteActivity$7
+ com.isrxge.minotes.activities.CreateNoteActivity$8
+ com.isrxge.minotes.activities.CreateNoteActivity$9
+com/isrxge/minotes/BuildConfig.java
+ com.isrxge.minotes.BuildConfig
+com/isrxge/minotes/database/NotesDatabase.java
+ com.isrxge.minotes.database.NotesDatabase
+com/isrxge/minotes/activities/MainActivity.java
+ com.isrxge.minotes.activities.MainActivity
+ com.isrxge.minotes.activities.MainActivity$1
+ com.isrxge.minotes.activities.MainActivity$1GetNotesTask
+ com.isrxge.minotes.activities.MainActivity$2
+ com.isrxge.minotes.activities.MainActivity$3
+ com.isrxge.minotes.activities.MainActivity$4
+ com.isrxge.minotes.activities.MainActivity$5
+ com.isrxge.minotes.activities.MainActivity$6
+com/isrxge/minotes/listeners/NotesListener.java
+ com.isrxge.minotes.listeners.NotesListener
+com/isrxge/minotes/adapters/NotesAdapter.java
+ com.isrxge.minotes.adapters.NotesAdapter
+ com.isrxge.minotes.adapters.NotesAdapter$1
+ com.isrxge.minotes.adapters.NotesAdapter$1$1
+ com.isrxge.minotes.adapters.NotesAdapter$NoteViewHolder
+com/isrxge/minotes/entities/Note.java
+ com.isrxge.minotes.entities.Note
